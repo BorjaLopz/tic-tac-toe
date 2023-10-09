@@ -1,0 +1,81 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.containerTitleContainer {
+  padding: 1.4rem 0.4rem;
+  min-width: 90%;
+  background-color: white;
+  height: 40rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.445);
+
+  display: grid;
+  grid-template-rows: 10% 90%;
+  grid-gap: 1rem;
+
+  align-items: center;
+}
+
+.containerTitleContainer h2 {
+  margin-top: 1rem;
+  color: black;
+}
+
+.containerTitleContainer h3 {
+  color: black;
+}
+
+#containerButtons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.elemento {
+  border: 1px solid rgba(66, 66, 66, 0.4);
+  border-radius: 1rem;
+  box-shadow: 0 0 2px rgba(66, 66, 66, 0.4);
+  width: 6rem;
+  height: 6rem;
+  /* width: ; */
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#containerButtons .null:hover {
+  background-color: rgba(66, 66, 66, 0.068);
+}
+
+#containerButtons .cross {
+  background-image: url("/icons/cross.svg");
+  background-size: 4rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#containerButtons .circle {
+  background-image: url("/icons/circle.svg");
+  background-size: 4rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#winnerText {
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  align-items: center;
+}
